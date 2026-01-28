@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.site-header {
-  background-color: #012243;
+header {
+  background: #01172e !important; /* your new color */
+  background-image: none !important; /* remove the theme image */
 }
