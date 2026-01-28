@@ -41,7 +41,7 @@ Los siguientes pasos enumeran el orden en el que ir quitando los componentes del
 27. Piñón de remontuar
 28. Piñón corredizo
 
-Se recomienda guardar las piezas en una campana de 6 divisiones o similar si no se va a volver a montar inmediatamente el movimiento, para evitar que a las piezas se les pegue polvo u otros residuos.
+Se recomienda guardar las piezas en una campana de 6 divisiones o similar si no se va a volver a montar inmediatamente el movimiento para evitar que a las piezas se les pegue polvo u otros residuos.
 
 ## Montaje por pasos
 
