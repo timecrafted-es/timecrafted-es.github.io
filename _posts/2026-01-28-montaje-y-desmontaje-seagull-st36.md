@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Montaje y desmontaje de movimiento Seagull ST36"
-date: 2026-01-28
-categories: reparación
 ---
 
 ## Desmontaje por pasos
