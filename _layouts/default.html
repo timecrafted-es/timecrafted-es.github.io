@@ -26,14 +26,19 @@
       <nav>
         <ul></ul>
       </nav>
-      <section>
-        {{ content }}
         {% if page.show_home_link %}
         <p style="margin-top:2em;">
         <a href="{{ '/' | relative_url }}">Volver a Inicio</a>
         </p>
-{% endif %}
+        {% endif %}
+      <section>
+        {{ content }}
       </section>
+        {% if page.show_home_link %}
+        <p style="margin-top:2em;">
+        <a href="{{ '/' | relative_url }}">Volver a Inicio</a>
+        </p>
+        {% endif %}
     </div>
   </body>
 </html>
