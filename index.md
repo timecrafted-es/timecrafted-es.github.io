@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inicio
+title: Timecrafted
 ---
 
 ## Relojería Técnica  
@@ -23,9 +23,6 @@ Este sitio web está **libre de IA**. Todo el contenido que leerás, verás y di
 {% for post in site.posts limit:5 %}
   <article style="margin-bottom: 1.5rem;">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    {% if post.excerpt %}
-      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-    {% endif %}
   </article>
 {% endfor %}
 
