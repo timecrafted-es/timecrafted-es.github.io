@@ -79,3 +79,7 @@ Los siguientes pasos enumeran el orden en el que ir poniendo los componentes del
 25. Puente del áncora (Con cuidado de no partir el pivote superior del áncora. Una vez este bien colocado, se le podría dar cuerda al reloj para comprobar con mucho cuidado que el áncora se mueve de un lado a otro por inercia.)
 26. Volante (Asegurarse de que el pivote inferior se coloca en su correspondiente agujero, y después colocar el puente del volante cuidadosamente en su posición. Si se le ha dado cuerda al reloj, el volante debería a empezar a oscilar cuando alcance su posición correcta. Si no oscila, puede ser que el volante no este bien colocado o que el movimiento tenga algún otro problema.)
 27. Agujas del reloj
+
+En un futuro cercano, esta guía se mejorará añadiendo fotos del proceso paso a paso, para facilitar el seguimiento.
+
+Aviso: Esta guía no ha sido elaborada por una profesional de la relojería, por lo que podría contener errores. Ésta página está abierta a críticas constructivas y mejoras, y estas son bienvenidas a través de [correo electrónico](mailto:timecrafted.es@gmail.com).
