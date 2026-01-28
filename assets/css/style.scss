@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import {{ site.theme }};
 
 .github-bar {
   display: none !important;
