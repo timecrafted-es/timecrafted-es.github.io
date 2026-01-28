@@ -1,7 +1,7 @@
 ---
 ---
 
-@import {{ site.theme }};
+@import "{{ site.theme }}";
 
 .site-header {
   background-color: #012243;
