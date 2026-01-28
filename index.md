@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Timecrafted
+home: true
 ---
 
 ## Relojería Técnica  
