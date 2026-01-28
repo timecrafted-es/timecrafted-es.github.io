@@ -63,3 +63,8 @@ header {
   border-left: 2px solid #000;
   color: #000;
 }
+
+.post-item a.active {
+  border-left: 2px solid #000;
+  font-weight: 600;
+}
