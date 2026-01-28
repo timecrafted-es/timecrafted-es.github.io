@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Montaje y desmontaje de movimiento Seagull ST36"
+show_home_link: true
 ---
 
 ## Desmontaje por pasos

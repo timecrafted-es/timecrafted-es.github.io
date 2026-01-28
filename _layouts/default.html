@@ -28,7 +28,11 @@
       </nav>
       <section>
         {{ content }}
-
+        {% if page.show_home_link %}
+        <p style="margin-top:2em;">
+        <a href="{{ '/' | relative_url }}">Volver a Inicio</a>
+        </p>
+{% endif %}
       </section>
     </div>
   </body>
