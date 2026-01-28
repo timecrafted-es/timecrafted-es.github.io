@@ -3,7 +3,63 @@
 
 @import "{{ site.theme }}";
 
+/* Header container */
+
 header {
-  background: #01172e !important; /* your new color */
+  background: #01172e !important; /* Nice dark blue */
   background-image: none !important; /* remove the theme image */
+}
+
+/* Sidebar container */
+.sidebar {
+  font-size: 0.9rem;
+}
+
+/* Remove default bullets */
+.category-list,
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Category block spacing */
+.category-item {
+  margin-bottom: 1.5rem;
+}
+
+/* Category title */
+.category-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+/* Post count */
+.post-count {
+  font-weight: normal;
+  color: #888;
+  font-size: 0.75rem;
+}
+
+/* Post links */
+.post-item {
+  margin-bottom: 0.3rem;
+}
+
+.post-item a {
+  text-decoration: none;
+  color: #333;
+  border-left: 2px solid transparent;
+  padding-left: 6px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.post-item a:hover {
+  border-left: 2px solid #000;
+  color: #000;
 }
