@@ -15,7 +15,7 @@ Ahora mismo está muy verde, y tiene muy poco contenido, pero va a ir creciendo 
 
 ## Nota sobre el uso de la inteligencia artificial
 
-Este sitio web está **libre de IA**. Todo el contenido que leerás, verás y disfrutarás (¡esperemos!) estará 100% generado por una humana, y no por una máquina ni como resultado de un *prompt*.  
+El contenido en calidad de texto e imágenes de este sitio web está **libre de IA**. Todos los artículos que leerás, verás y disfrutarás (¡esperemos!) estarán 100% generados por una humana, y no por una máquina ni como resultado de un *prompt*.
 
 ---
 
