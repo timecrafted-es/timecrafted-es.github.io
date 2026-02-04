@@ -6,8 +6,19 @@
 /* Header container */
 
 header {
-  background: #01172e !important; /* Nice dark blue */
-  background-image: none !important; /* remove the theme image */
+  background: #000000 !important;   /* Black background */
+  background-image: none !important;
+  text-align: center;
+  padding: 80px 0;
+}
+
+/* Title: Timecrafted */
+header h1 {
+  font-family: 'Cinzel', serif !important;
+  font-size: 52px !important;
+  color: #d6b456 !important;
+  margin: 0;
+  letter-spacing: 2px;
 }
 
 /* Sidebar container */
