@@ -24,7 +24,20 @@ header h1 {
 
 /* Sidebar container */
 .sidebar {
+  flex: 0 0 25%;
   font-size: 0.9rem;
+}
+
+/* Make the whole page a flex container */
+body {
+  display: flex;
+}
+
+/* Main content area */
+.wrapper {
+  flex: 1;
+  margin: 0;
+  padding: 40px 60px;
 }
 
 /* Remove default bullets */
