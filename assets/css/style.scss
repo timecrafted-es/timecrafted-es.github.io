@@ -93,6 +93,15 @@ body {
 
 @media screen and (max-width: 1060px) {
 
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .wrapper {
+    width: 100%;
+  }
+
   /* Make sidebar visible and stack vertically */
   nav {
     display: block !important;
