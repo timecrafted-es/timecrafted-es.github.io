@@ -22,22 +22,30 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/* Sidebar container */
+/* Two-column layout */
+
+.wrapper {
+  display: flex;
+  width: 100%;       /* remove fixed 650px */
+  margin: 0;         /* remove centering */
+  min-height: 100vh;
+}
+
+/* Sidebar: 25% */
 .sidebar {
   flex: 0 0 25%;
+  min-width: 220px;
+  padding: 40px 20px;
+  box-sizing: border-box;
   font-size: 0.9rem;
 }
 
-/* Make the whole page a flex container */
-body {
-  display: flex;
-}
-
-/* Main content area */
-.wrapper {
-  flex: 1;
-  margin: 0;
+/* Main content section */
+.wrapper section {
+  flex: 1;                 /* takes remaining space */
   padding: 40px 60px;
+  background: white;       /* keeps white content panel */
+  box-sizing: border-box;
 }
 
 /* Remove default bullets */
@@ -91,7 +99,7 @@ body {
 
 /* Mobile Sidebar Override */
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 900px) {
 
   body {
     flex-direction: column;
