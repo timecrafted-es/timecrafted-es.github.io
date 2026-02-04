@@ -101,48 +101,13 @@ header h1 {
 
 @media screen and (max-width: 900px) {
 
-  body {
+  .wrapper {
     flex-direction: column;
   }
 
-  .sidebar,
-  .wrapper {
+  .sidebar {
+    flex: none;
     width: 100%;
   }
-
-  /* Make sidebar visible and stack vertically */
-  nav {
-    display: block !important;
-    position: static !important;
-    width: 100% !important;
-    margin: 0 0 2rem 0;
-    padding: 1.2rem 0;
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
-    background: #fafafa;
-  }
-
-  /* Remove default indentation */
-  nav ul {
-    padding-left: 0;
-    margin: 0;
-  }
-
-  /* Improve category spacing */
-  .category-item {
-    margin-bottom: 1.2rem;
-  }
-
-  /* Make category titles clearer on mobile */
-  .category-title {
-    font-size: 0.75rem;
-    letter-spacing: 0.08em;
-    margin-bottom: 0.4rem;
-  }
-
-  /* Improve post link spacing */
-  .post-item a {
-    padding: 6px 0;
-  }
-
 }
+
