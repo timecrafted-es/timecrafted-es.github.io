@@ -30,6 +30,10 @@ header h1 {
   position: relative !important;
 }
 
+.sidebar {
+  background: red;
+}
+
 /* Turn wrapper into flex container */
 .wrapper {
   display: flex;
