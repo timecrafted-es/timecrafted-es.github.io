@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* Header container */
+/* Header container - Default (homepage + normal pages) */
 
 header {
   background: #000000 !important;   /* Black background */
@@ -22,6 +22,16 @@ header h1 {
   color: #d6b456 !important;
   margin: 0;
   letter-spacing: 2px;
+}
+
+/* Smaller header on post pages */
+body.post header {
+  padding: 20px 0;
+  line-height: 40px;
+}
+
+body.post header h1 {
+  font-size: 28px !important;
 }
 
 /* Sidebar container */

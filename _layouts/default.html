@@ -15,7 +15,7 @@
 
     {% include head-custom.html %}
   </head>
-  <body>
+  <body class="{% if page.collection == 'posts' %}post{% else %}page{% endif %}">
 
       <header>
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
