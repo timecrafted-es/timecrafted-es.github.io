@@ -32,3 +32,14 @@
   padding: 40px 0 40px 40px;
   background: white;
 }
+
+@media (max-width: 900px) {
+
+  .sidebar,
+  .wrapper section {
+    float: none;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+}
