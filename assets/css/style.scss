@@ -3,47 +3,32 @@
 
 @import "{{ site.theme }}";
 
-/* Leap Day – Flex Layout */
+/* Leap Day – Stable Float Layout */
 
-/* Reset theme structural assumptions */
+/* Make wrapper full width instead of 650px */
 .wrapper {
   width: 100% !important;
-  max-width: 100%;
-  margin: 0 !important;
-  display: flex;
-  align-items: stretch;
+  max-width: 1200px;       /* keeps things readable */
+  margin: 0 auto !important;
+  overflow: hidden;        /* clears floats safely */
   box-sizing: border-box;
+  padding: 0 40px;         /* breathing room from edges */
 }
 
-/* Remove old float behaviour */
+/* Sidebar on left */
 .sidebar {
-  float: none !important;
-  position: relative !important;
-  display: block !important;
-}
-
-/* Sidebar column */
-.sidebar {
-  flex: 0 0 25%;
-  min-width: 240px;           /* prevents collapse */
-  max-width: 320px;           /* prevents it becoming huge on very wide screens */
-  padding: 40px 24px;
+  float: left;
+  width: 25%;
+  min-width: 220px;
   box-sizing: border-box;
-  overflow-wrap: break-word;
+  padding: 40px 20px 40px 0;
 }
 
-/* Main content column */
+/* Main content on right */
 .wrapper section {
-  flex: 1;
-  min-width: 0;               /* CRITICAL: allows flex shrinking */
-  padding: 40px 60px;
-  background: white;
+  float: right;
+  width: 75%;
   box-sizing: border-box;
-  overflow-wrap: break-word;
-}
-
-/* Prevent global horizontal scroll */
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+  padding: 40px 0 40px 40px;
+  background: white;
 }
