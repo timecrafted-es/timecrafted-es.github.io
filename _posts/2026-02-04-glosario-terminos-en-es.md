@@ -5,7 +5,7 @@ categories: [Miscelánea]
 show_home_link: true
 ---
 
-
+## Glosario de términos de relojería - Inglés a Español
 
 En este artículo se incluyen  algunos términos comunmente utilizados en relojería técnica, y otros que no son tan comunes pero podrían ser útiles de cara a buscar la pieza en sitios de habla hispana. Esta lista no es exhaustiva y se irá actualizando con el tiempo.
 
