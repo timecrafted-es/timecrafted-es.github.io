@@ -3,38 +3,37 @@
 
 @import "{{ site.theme }}";
 
-/* Disable theme’s default narrow width */
-.wrapper {
-  width: 100% !important;
-  max-width: 960px;
-  margin: 0 auto !important;
-  overflow: hidden;
-  padding: 0 20px;
+/* Header container */
+
+header {
+  background: #000000 !important;   /* Black background */
+  background-image: none !important;
+  text-align: center;
+  padding: 60px 0;
+  padding: 45px 0;
 }
 
-/* Sidebar on the left */
+/* Title: Timecrafted */
+header h1 {
+  font-family: 'Cinzel', serif !important;
+  font-size: 52px !important;
+  font-weight: bold;
+  color: #d6b456 !important;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* Sidebar container */
 .sidebar {
-  float: left;
-  width: 25%;
-  min-width: 220px;
-  margin-right: 40px;
+  font-size: 0.9rem;
 }
 
-/* Main content on the right */
-.wrapper section {
-  float: right;
-  width: 72%;
-  background: white;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-/* Clear floats */
-.wrapper::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+/* Remove default bullets */
+.category-list,
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
 
 
 @media (max-width: 900px) {
