@@ -5,6 +5,8 @@ categories: [Miscelánea]
 show_home_link: true
 ---
 
+
+
 En este artículo se incluyen  algunos términos comunmente utilizados en relojería técnica, y otros que no son tan comunes pero podrían ser útiles de cara a buscar la pieza en sitios de habla hispana. Esta lista no es exhaustiva y se irá actualizando con el tiempo.
 
 * Balance complete: Volante
@@ -34,8 +36,8 @@ En este artículo se incluyen  algunos términos comunmente utilizados en reloje
 * Pallet fork: Áncora (del escape)
 * Pallet jewel: Joya de paleta
 * Ratchet wheel: Rueda de trinquete o rueda de rochete
-* Setting lever spring: Muelle de tirete
-* Setting lever: Tirete
+* Setting lever spring: Muelle de tiret
+* Setting lever: Tiret
 * Setting wheel: Rueda de transmisión (de la puesta en hora)
 * Sliding pinion: Piñón corredizo
 * Third wheel: Tercera rueda
